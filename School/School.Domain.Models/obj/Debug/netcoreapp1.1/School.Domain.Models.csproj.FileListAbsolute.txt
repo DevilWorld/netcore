@@ -1,0 +1,7 @@
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\School\School.Domain.Models\bin\Debug\netcoreapp1.1\School.Domain.Models.deps.json
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\School\School.Domain.Models\bin\Debug\netcoreapp1.1\School.Domain.Models.dll
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\School\School.Domain.Models\bin\Debug\netcoreapp1.1\School.Domain.Models.pdb
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\School\School.Domain.Models\obj\Debug\netcoreapp1.1\School.Domain.Models.csproj.CoreCompileInputs.cache
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\School\School.Domain.Models\obj\Debug\netcoreapp1.1\School.Domain.Models.AssemblyInfo.cs
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\School\School.Domain.Models\obj\Debug\netcoreapp1.1\School.Domain.Models.dll
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\School\School.Domain.Models\obj\Debug\netcoreapp1.1\School.Domain.Models.pdb
