@@ -14,6 +14,9 @@ namespace School.Domain.Model
 
         //Foreign key property to School
         public int SchoolId { get; set; }
+        //Foreign key property to Address
+        public int AddressId { get; set; }
+
         //Navigation Property to School
         public virtual School School { get; set; }
         //Navigation Property to Address

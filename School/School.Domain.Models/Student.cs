@@ -14,11 +14,14 @@ namespace School.Domain.Model
         public DateTime DOB { get; set; }
         public string Sex { get; set; }
 
+        public int ParentId { get; set; }
+        public int AddressId { get; set; }
+
         //Navigation property, which acts as a collection of the child
-        public virtual ICollection<Address> Addresses { get; set; }
+        public virtual Address Address { get; set; }
 
         //Navigation property
-        public virtual ICollection<Parent> Parents { get; set; }
+        public virtual Parent Parent { get; set; }
 
         public virtual ICollection<StudentClass> StudentClasses { get; set; }
 

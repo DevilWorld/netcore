@@ -3,18 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SchoolPortal.Domain.Model;
-using SchoolPortal.Domain.Interfaces.Repository;
+using School.Domain.Model;
+using School.Domain.Interfaces.Repository;
+using School.Infrastructure;
 
 namespace SchoolPortal.Infrastructure.Repository
 {
     public class UserRepository : IUserRepository
     {
-        EFDataContext _context;        
+        SchoolDataContext _context;        
 
         public User GetUser(User user)
         {
-            using (_context = new EFDataContext())
+            using (_context = new SchoolDataContext())
             {
                 return _context.Users
                         .SingleOrDefault(x => x.UserId == user.UserId && x.Password == user.Password);
@@ -23,7 +24,7 @@ namespace SchoolPortal.Infrastructure.Repository
 
         public bool IsUserExists(string userId)
         {
-            using (_context = new EFDataContext())
+            using (_context = new SchoolDataContext())
             {
                 return _context.Users.Any(x => x.UserId.Equals(userId, StringComparison.CurrentCultureIgnoreCase));
             }

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using School.Domain.Model;
-using SchoolPortal.Infrastructure.Data.Mapping;
+using School.Infrastructure.Data.Mapping;
 using System;
 
 
@@ -20,22 +20,28 @@ namespace School.Infrastructure
         public DbSet<StudentClass> StudentClasses { get; set; }
         public DbSet<PrincipalAddress> PrincipalAddresses { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder model)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //Add this code, otherwise, we get model backing exception
             //Database.SetInitializer<SchoolDataContext>(null);
 
-            //model.Configurations.Add(new PersonMap());
-            model.Entity.Add(new UserMap());
-            model.Configurations.Add(new StudentMap());
-            model.Configurations.Add(new TeacherMap());
-            model.Configurations.Add(new StudentClassMap());
-            model.Configurations.Add(new PrincipalAddressMap());
+            modelBuilder.ApplyConfiguration(new AddressConfiguration());
+            // modelBuilder.ApplyConfiguration(new ClassConfiguration());
+            // modelBuilder.ApplyConfiguration(new HomeWorkConfiguration());
+            // modelBuilder.ApplyConfiguration(new ParentConfiguration());
+            // modelBuilder.ApplyConfiguration(new PrincipalAddressConfiguration());
+            // modelBuilder.ApplyConfiguration(new PrincipalConfiguration());
+            // modelBuilder.ApplyConfiguration(new SchoolConfiguration());
+            // modelBuilder.ApplyConfiguration(new StudentClassConfiguration());
+            modelBuilder.ApplyConfiguration(new StudentConfiguration());
+            // modelBuilder.ApplyConfiguration(new SubjectConfiguration());
+            // modelBuilder.ApplyConfiguration(new TeacherConfiguration());
+            // modelBuilder.ApplyConfiguration(new UserConfiguration());
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-// optionsBuilder.usesq
+            optionsBuilder.UseSqlServer("Data Source=.;Integrated Security=true;");
         }
     }
 }

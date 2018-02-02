@@ -12,6 +12,8 @@ namespace School.Domain.Model
         public string Gender { get; set; }
         public DateTime DOB { get; set; }
 
+        public int AddressId { get; set; }
+
         //Navigation Property
         public virtual ICollection<Address> Addresses { get; set; }
 

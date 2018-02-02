@@ -19,7 +19,7 @@ namespace School.Domain.Model
         public virtual ICollection<Student> Students { get; set; }
 
         //Navagation property for parent
-        public virtual ICollection<Parent> Parents { get; set; }        
+        public virtual ICollection<Parent> Parents { get; set; }
 
         //Navigation property for Teacher
         public virtual Teacher Teachers { get; set; }
