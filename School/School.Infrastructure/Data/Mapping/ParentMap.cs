@@ -1,5 +1,5 @@
 ﻿using System.Data.Entity.ModelConfiguration;
-using SchoolPortal.Domain.Model;
+using School.Domain.Model;
 using System.Data.Entity;
 
 namespace SchoolPortal.Infrastructure.Data.Mapping

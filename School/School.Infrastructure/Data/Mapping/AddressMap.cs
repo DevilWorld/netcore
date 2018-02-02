@@ -1,21 +1,22 @@
-﻿using SchoolPortal.Domain.Model;
-using System.Data.Entity.ModelConfiguration;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using School.Domain.Model;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+// using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SchoolPortal.Infrastructure.Data.Mapping
+namespace School.Infrastructure.Data.Mapping
 {
-    class AddressMap:EntityTypeConfiguration<Address>
+    class AddressConfiguration:IEntityTypeConfiguration<Address>
     {
-        public AddressMap()
+        public void Configure(EntityTypeBuilder<Address> builder)
         {
-            ToTable("tblAddress");
-            HasKey(k => k.AddressId);
-            Property(p => p.AddressId).HasColumnName("AddressId").HasColumnType("int").HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
-            Property(p => p.Address1).HasColumnName("Address1").HasColumnType("varchar");
-            Property(p => p.Address2).HasColumnName("Address2").HasColumnType("varchar");
-            Property(p => p.City).HasColumnName("City").HasColumnType("varchar");
-            Property(p => p.State).HasColumnName("State").HasColumnType("varchar");
-            Property(p => p.Zip).HasColumnName("Zip").HasColumnType("int");            
+            builder.ToTable("tblAddress");
+            builder.HasKey(k => k.AddressId);
+            builder.Property(p => p.AddressId).HasColumnName("AddressId").HasColumnType("int").UseSqlServerIdentityColumn();
+            builder.Property(p => p.Address1).HasColumnName("Address1").HasColumnType("varchar");
+            builder.Property(p => p.Address2).HasColumnName("Address2").HasColumnType("varchar");
+            builder.Property(p => p.City).HasColumnName("City").HasColumnType("varchar");
+            builder.Property(p => p.State).HasColumnName("State").HasColumnType("varchar");
+            builder.Property(p => p.Zip).HasColumnName("Zip").HasColumnType("int");            
         }
     }
 }

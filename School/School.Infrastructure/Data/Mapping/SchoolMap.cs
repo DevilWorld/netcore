@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Data.Entity.ModelConfiguration;
-using SchoolPortal.Domain.Model;
+using School.Domain.Model;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SchoolPortal.Infrastructure.Data.Mapping

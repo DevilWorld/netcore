@@ -1,4 +1,4 @@
-﻿using SchoolPortal.Domain.Model;
+﻿using School.Domain.Model;
 using System.Data.Entity.ModelConfiguration;
 
 namespace SchoolPortal.Infrastructure.Data.Mapping

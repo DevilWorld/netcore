@@ -6,3 +6,8 @@ C:\Users\Dinesh\SOurce\core\v2.0\School\School.Infrastructure\obj\Debug\netcorea
 C:\Users\Dinesh\SOurce\core\v2.0\School\School.Infrastructure\obj\Debug\netcoreapp2.0\School.Infrastructure.AssemblyInfo.cs
 C:\Users\Dinesh\SOurce\core\v2.0\School\School.Infrastructure\obj\Debug\netcoreapp2.0\School.Infrastructure.dll
 C:\Users\Dinesh\SOurce\core\v2.0\School\School.Infrastructure\obj\Debug\netcoreapp2.0\School.Infrastructure.pdb
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Infrastructure\obj\Debug\netcoreapp2.0\School.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Infrastructure\obj\Debug\netcoreapp2.0\School.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Infrastructure\obj\Debug\netcoreapp2.0\School.Infrastructure.AssemblyInfo.cs
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Infrastructure\obj\Debug\netcoreapp2.0\School.Infrastructure.dll
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Infrastructure\obj\Debug\netcoreapp2.0\School.Infrastructure.pdb

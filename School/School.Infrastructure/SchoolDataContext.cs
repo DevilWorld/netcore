@@ -1,15 +1,16 @@
-﻿using System.Data.Entity;
+﻿using Microsoft.EntityFrameworkCore;
 using School.Domain.Model;
 using SchoolPortal.Infrastructure.Data.Mapping;
+using System;
 
 
-namespace SchoolPortal.Infrastructure
+namespace School.Infrastructure
 {
-    public class EFDataContext : Context
+    public class SchoolDataContext : DbContext
     {
-        public EFDataContext()
-            : base("name=SchoolContext")
-        { }
+        // public SchoolDataContext()
+        //     : base("name=SchoolContext")
+        // { }
 
         //public DbSet<Course> Courses { get; set; }
         //public DbSet<Person> Persons { get; set; }
@@ -19,17 +20,22 @@ namespace SchoolPortal.Infrastructure
         public DbSet<StudentClass> StudentClasses { get; set; }
         public DbSet<PrincipalAddress> PrincipalAddresses { get; set; }
 
-        protected override void OnModelCreating(DbModelBuilder model)
+        protected override void OnModelCreating(ModelBuilder model)
         {
             //Add this code, otherwise, we get model backing exception
-            Database.SetInitializer<EFDataContext>(null);
+            //Database.SetInitializer<SchoolDataContext>(null);
 
             //model.Configurations.Add(new PersonMap());
-            model.Configurations.Add(new UserMap());
+            model.Entity.Add(new UserMap());
             model.Configurations.Add(new StudentMap());
             model.Configurations.Add(new TeacherMap());
             model.Configurations.Add(new StudentClassMap());
             model.Configurations.Add(new PrincipalAddressMap());
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+// optionsBuilder.usesq
         }
     }
 }

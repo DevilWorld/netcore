@@ -1,5 +1,5 @@
 ﻿using System;
-using SchoolPortal.Domain.Model;
+using School.Domain.Model;
 using System.Data.Entity.ModelConfiguration;
 using System.ComponentModel.DataAnnotations.Schema;
 
