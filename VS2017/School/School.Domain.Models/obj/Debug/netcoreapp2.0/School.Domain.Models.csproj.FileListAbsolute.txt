@@ -7,3 +7,12 @@ C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\Sc
 C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School.Domain.Models\obj\Debug\netcoreapp2.0\School.Domain.Models.dll
 C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School.Domain.Models\obj\Debug\netcoreapp2.0\School.Domain.Models.pdb
 C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School.Domain.Models\obj\Debug\netcoreapp2.0\School.Domain.Models.csprojResolveAssemblyReference.cache
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School.Domain.Models\bin\Debug\netcoreapp2.0\School.Domain.Models.deps.json
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School.Domain.Models\bin\Debug\netcoreapp2.0\School.Domain.Models.dll
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School.Domain.Models\bin\Debug\netcoreapp2.0\School.Domain.Models.pdb
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School.Domain.Models\obj\Debug\netcoreapp2.0\School.Domain.Models.csprojResolveAssemblyReference.cache
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School.Domain.Models\obj\Debug\netcoreapp2.0\School.Domain.Models.csproj.CoreCompileInputs.cache
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School.Domain.Models\obj\Debug\netcoreapp2.0\School.Domain.Models.AssemblyInfoInputs.cache
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School.Domain.Models\obj\Debug\netcoreapp2.0\School.Domain.Models.AssemblyInfo.cs
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School.Domain.Models\obj\Debug\netcoreapp2.0\School.Domain.Models.dll
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School.Domain.Models\obj\Debug\netcoreapp2.0\School.Domain.Models.pdb

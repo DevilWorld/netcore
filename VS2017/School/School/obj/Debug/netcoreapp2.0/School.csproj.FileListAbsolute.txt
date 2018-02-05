@@ -13,3 +13,20 @@ C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\Sc
 C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\bin\Debug\netcoreapp2.0\School.Domain.Models.dll
 C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\bin\Debug\netcoreapp2.0\School.Domain.Models.pdb
 C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\bin\Debug\netcoreapp2.0\School.Domain.pdb
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\bin\Debug\netcoreapp2.0\School.deps.json
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\bin\Debug\netcoreapp2.0\School.runtimeconfig.json
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\bin\Debug\netcoreapp2.0\School.runtimeconfig.dev.json
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\bin\Debug\netcoreapp2.0\School.dll
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\bin\Debug\netcoreapp2.0\School.pdb
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\bin\Debug\netcoreapp2.0\School.Domain.dll
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\bin\Debug\netcoreapp2.0\School.Domain.Models.dll
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\bin\Debug\netcoreapp2.0\School.Domain.Models.pdb
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\bin\Debug\netcoreapp2.0\School.Domain.pdb
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\obj\Debug\netcoreapp2.0\School.csprojResolveAssemblyReference.cache
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\obj\Debug\netcoreapp2.0\School.csproj.CoreCompileInputs.cache
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\obj\Debug\netcoreapp2.0\School.AssemblyInfoInputs.cache
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\obj\Debug\netcoreapp2.0\School.AssemblyInfo.cs
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\obj\Debug\netcoreapp2.0\School.dll
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\obj\Debug\netcoreapp2.0\School.pdb
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\bin\Debug\netcoreapp2.0\School.Infrastructure.dll
+C:\Users\dinesh.venkatachalam\Source\repos\netcore\v2.0\VS2017\School\School\bin\Debug\netcoreapp2.0\School.Infrastructure.pdb

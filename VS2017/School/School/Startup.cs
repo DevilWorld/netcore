@@ -8,6 +8,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using School.Domain.Interfaces.Services;
+using School.Domain.Interfaces.Repository;
+using School.Domain.Services;
+using School.Infrastructure.Repository;
 
 namespace School
 {
@@ -24,6 +28,8 @@ namespace School
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddTransient<IStudentService, StudentService>();
+            services.AddTransient<IStudentRepository, StudentRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

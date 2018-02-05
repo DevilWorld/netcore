@@ -9,9 +9,9 @@ namespace School.Domain.Services
     public class StudentService : IStudentService
     {
         private readonly IStudentRepository _studentRepository;
-        public StudentService()
+        public StudentService(IStudentRepository studentRepository)
         {
-            _studentRepository = new Student;
+            _studentRepository = studentRepository;
         }
         public void AddStudent(Student student)
         {

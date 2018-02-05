@@ -7,7 +7,7 @@ using School.Domain.Models;
 using School.Domain.Interfaces.Repository;
 using School.Infrastructure;
 
-namespace SchoolPortal.Infrastructure.Repository
+namespace School.Infrastructure.Repository
 {
     public class UserRepository : IUserRepository
     {

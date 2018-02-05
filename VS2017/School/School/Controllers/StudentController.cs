@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using School.Domain.Interfaces.Services;
 using School.Domain.Models;
-using School.Domain.Services;;
+using School.Domain.Services;
 
 namespace School.Api.Controllers
 {
@@ -9,7 +9,7 @@ namespace School.Api.Controllers
     public class StudentController : Controller
     {
         private readonly IStudentService _studentService;
-        public StudentController()
+        public StudentController(IStudentService studentService)
         {
             _studentService = studentService;
         }
@@ -24,8 +24,6 @@ namespace School.Api.Controllers
         [HttpGet("all-students")]
         public IActionResult GetAllStudents()
         {
-            IStudentService studentService = new StudentService();
-
             var students = _studentService.GetAllStudents();
             return new OkObjectResult(students);
         }

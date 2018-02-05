@@ -5,7 +5,7 @@ using School.Domain.Interfaces.Repository;
 using School.Domain.Models;
 using School.Infrastructure;
 
-namespace SchoolPortal.Infrastructure.Repository
+namespace School.Infrastructure.Repository
 {
     public class StudentRepository : IStudentRepository
     {
