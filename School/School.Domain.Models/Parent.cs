@@ -15,9 +15,9 @@ namespace School.Domain.Model
         public int AddressId { get; set; }
 
         //Navigation Property
-        public virtual ICollection<Address> Addresses { get; set; }
+        public virtual Address Address { get; set; }
 
         //Navigation Property
-        public virtual ICollection<Student> Students { get; set; }
+        // public virtual ICollection<Student> Students { get; set; }
     }
 }

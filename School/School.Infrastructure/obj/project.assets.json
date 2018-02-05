@@ -30,10 +30,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/2.0.1": {
+      "Microsoft.EntityFrameworkCore.Design/2.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "2.0.1"
+          "Microsoft.EntityFrameworkCore.Relational": "2.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -69,16 +69,16 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/1.1.0-msbuild3-final": {
+      "Microsoft.EntityFrameworkCore.Tools/2.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "1.1.0"
+          "Microsoft.EntityFrameworkCore.Design": "2.0.0"
         },
         "compile": {
-          "lib/netstandard1.3/_._": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.3/_._": {}
+          "lib/netstandard2.0/_._": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/2.0.0": {
@@ -188,12 +188,12 @@
           "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "Microsoft.NETCore.App/2.0.0": {
+      "Microsoft.NETCore.App/2.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.DotNetHostPolicy": "2.0.0",
-          "Microsoft.NETCore.Platforms": "2.0.0",
-          "NETStandard.Library": "2.0.0"
+          "Microsoft.NETCore.DotNetHostPolicy": "2.0.5",
+          "Microsoft.NETCore.Platforms": "2.0.1",
+          "NETStandard.Library": "2.0.1"
         },
         "compile": {
           "ref/netcoreapp2.0/Microsoft.CSharp.dll": {},
@@ -344,22 +344,22 @@
           "build/netcoreapp2.0/Microsoft.NETCore.App.targets": {}
         }
       },
-      "Microsoft.NETCore.DotNetAppHost/2.0.0": {
+      "Microsoft.NETCore.DotNetAppHost/2.0.5": {
         "type": "package"
       },
-      "Microsoft.NETCore.DotNetHostPolicy/2.0.0": {
+      "Microsoft.NETCore.DotNetHostPolicy/2.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.DotNetHostResolver": "2.0.0"
+          "Microsoft.NETCore.DotNetHostResolver": "2.0.5"
         }
       },
-      "Microsoft.NETCore.DotNetHostResolver/2.0.0": {
+      "Microsoft.NETCore.DotNetHostResolver/2.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.DotNetAppHost": "2.0.0"
+          "Microsoft.NETCore.DotNetAppHost": "2.0.5"
         }
       },
-      "Microsoft.NETCore.Platforms/2.0.0": {
+      "Microsoft.NETCore.Platforms/2.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -401,7 +401,7 @@
           }
         }
       },
-      "NETStandard.Library/2.0.0": {
+      "NETStandard.Library/2.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -1022,16 +1022,16 @@
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/2.0.1": {
-      "sha512": "gEdT/YSI/buO15X/UN+gQY6D7qeozRYU80WuesZCj33jJBw4wCHHn8SYcp38k2BPOBDC4I2AfsOFH6Vaf8CeLQ==",
+    "Microsoft.EntityFrameworkCore.Design/2.0.0": {
+      "sha512": "v8e4OwmK+BIm7jINmGJaQz1+r6BiFl+bGJNVUF4JQZ9H40keeTIHEgKDxdEr+24EdllfLLKTisEziq1H089TYg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/2.0.1",
+      "path": "microsoft.entityframeworkcore.design/2.0.0",
       "files": [
         "lib/net461/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/net461/Microsoft.EntityFrameworkCore.Design.xml",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.2.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.2.0.0.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
@@ -1057,14 +1057,13 @@
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Tools/1.1.0-msbuild3-final": {
-      "sha512": "RRk95FGr5WBTd07dbMYC+qkvxkBRcsSKeo1OsnU72lCwoWaViW/mbZXKNFFuiKQGvYyNh0LT66Zv4UhxEBUAkw==",
+    "Microsoft.EntityFrameworkCore.Tools/2.0.0": {
+      "sha512": "ILVI7sbnD0Pgf6B90AL3RiRdq+XRXEG4VnvuD75Fluv6p5PbYfU2tQP2VlL0oAFCVhihSgSWIQHtDjUFEE0+nw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/1.1.0-msbuild3-final",
+      "path": "microsoft.entityframeworkcore.tools/2.0.0",
       "files": [
-        "lib/net451/_._",
-        "lib/netstandard1.3/_._",
-        "microsoft.entityframeworkcore.tools.1.1.0-msbuild3-final.nupkg.sha512",
+        "lib/netstandard2.0/_._",
+        "microsoft.entityframeworkcore.tools.2.0.0.nupkg.sha512",
         "microsoft.entityframeworkcore.tools.nuspec",
         "tools/EntityFrameworkCore.PowerShell2.psd1",
         "tools/EntityFrameworkCore.PowerShell2.psm1",
@@ -1073,12 +1072,12 @@
         "tools/about_EntityFrameworkCore.help.txt",
         "tools/init.ps1",
         "tools/install.ps1",
-        "tools/net451/ef.exe",
-        "tools/net451/ef.exe.config",
-        "tools/net451/ef.x86.exe",
-        "tools/net451/ef.x86.exe.config",
-        "tools/netcoreapp1.0/ef.dll",
-        "tools/netcoreapp1.0/ef.runtimeconfig.json"
+        "tools/net461/ef.exe",
+        "tools/net461/ef.exe.config",
+        "tools/net461/ef.x86.exe",
+        "tools/net461/ef.x86.exe.config",
+        "tools/netcoreapp2.0/ef.dll",
+        "tools/netcoreapp2.0/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/2.0.0": {
@@ -1180,10 +1179,10 @@
         "microsoft.extensions.primitives.nuspec"
       ]
     },
-    "Microsoft.NETCore.App/2.0.0": {
-      "sha512": "/mzXF+UtZef+VpzzN88EpvFq5U6z4rj54ZMq/J968H6pcvyLOmcupmTRpJ3CJm8ILoCGh9WI7qpDdiKtuzswrQ==",
+    "Microsoft.NETCore.App/2.0.5": {
+      "sha512": "GVbWVnJLS5H2svfavSo/m1SfLwwXVqdezf7wsuPsXsfG/fJG+dSxZuQMtI9ztSNakOzbXwxPQ4RyLyoAPbW2Wg==",
       "type": "package",
-      "path": "microsoft.netcore.app/2.0.0",
+      "path": "microsoft.netcore.app/2.0.5",
       "files": [
         "LICENSE.TXT",
         "Microsoft.NETCore.App.versions.txt",
@@ -1191,7 +1190,7 @@
         "build/netcoreapp2.0/Microsoft.NETCore.App.PlatformManifest.txt",
         "build/netcoreapp2.0/Microsoft.NETCore.App.props",
         "build/netcoreapp2.0/Microsoft.NETCore.App.targets",
-        "microsoft.netcore.app.2.0.0.nupkg.sha512",
+        "microsoft.netcore.app.2.0.5.nupkg.sha512",
         "microsoft.netcore.app.nuspec",
         "ref/netcoreapp/_._",
         "ref/netcoreapp2.0/Microsoft.CSharp.dll",
@@ -1458,51 +1457,51 @@
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.DotNetAppHost/2.0.0": {
-      "sha512": "L4GGkcI/Mxl8PKLRpFdGmLb5oI8sGIR05bDTGkzCoamAjdUl1Zhkov2swjEsZvKYT8kkdiz39LtwyGYuCJxm1A==",
+    "Microsoft.NETCore.DotNetAppHost/2.0.5": {
+      "sha512": "wz8cExxVAAlYqpPhup43w8nRcvJLgBNpdL41YPb4UmbnIYMSFQyAVkYWEgYP/XkvHpDOtjLiZZrSODyYXXwBPQ==",
       "type": "package",
-      "path": "microsoft.netcore.dotnetapphost/2.0.0",
+      "path": "microsoft.netcore.dotnetapphost/2.0.5",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+        "microsoft.netcore.dotnetapphost.2.0.5.nupkg.sha512",
         "microsoft.netcore.dotnetapphost.nuspec",
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.DotNetHostPolicy/2.0.0": {
-      "sha512": "rm7mMn0A93fwyAwVhbyOCcPuu2hZNL0A0dAur9sNG9pEkONPfCEQeF7m2mC8KpqZO0Ol6tpV5J0AF3HTXT3GXA==",
+    "Microsoft.NETCore.DotNetHostPolicy/2.0.5": {
+      "sha512": "Aag20F7b7mDur/EQRt+Kl6+7osKMPZkzARLkXHTi12IJ2awoThnWnHNViFrT6on2oO4+vLYKBgONAz44xsjX8w==",
       "type": "package",
-      "path": "microsoft.netcore.dotnethostpolicy/2.0.0",
+      "path": "microsoft.netcore.dotnethostpolicy/2.0.5",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+        "microsoft.netcore.dotnethostpolicy.2.0.5.nupkg.sha512",
         "microsoft.netcore.dotnethostpolicy.nuspec",
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.DotNetHostResolver/2.0.0": {
-      "sha512": "uBbjpeSrwsaTCADZCzRk+3aBzNnMqkC4zftJWBsL+Zk+8u+W+/lMb2thM5Y4hiVrv1YQg9t6dKldXzOKkY+pQw==",
+    "Microsoft.NETCore.DotNetHostResolver/2.0.5": {
+      "sha512": "z/HRLSjJH9XcA98RHCV5SWh7ps6p0x+0Df6MiscU4JtaBNC7h6pW2iPUraArGGZ9lhdXDVXmE3T0EXr6DwIw1g==",
       "type": "package",
-      "path": "microsoft.netcore.dotnethostresolver/2.0.0",
+      "path": "microsoft.netcore.dotnethostresolver/2.0.5",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+        "microsoft.netcore.dotnethostresolver.2.0.5.nupkg.sha512",
         "microsoft.netcore.dotnethostresolver.nuspec",
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.Platforms/2.0.0": {
-      "sha512": "VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+    "Microsoft.NETCore.Platforms/2.0.1": {
+      "sha512": "Rgwturmal/A4iD0kqWu0NYAjz7hBsioJGTCg3KzaKG9+r9jN7qbhX04L/AQvypaPyMxFfcWUelSby4ZKWxMoEA==",
       "type": "package",
-      "path": "microsoft.netcore.platforms/2.0.0",
+      "path": "microsoft.netcore.platforms/2.0.1",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+        "microsoft.netcore.platforms.2.0.1.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
         "runtime.json",
         "useSharedDesignerContext.txt",
@@ -1510,7 +1509,7 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
-      "sha512": "XBxRqTA6Qyn8rH02MeH+ZirEBtWQcThwi4YlpRam9/RvNLP+DfsdqkInfDaKZhgAmkdLWVrH9F8uZ0i+8jH69A==",
+      "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
@@ -1560,10 +1559,10 @@
         "version.txt"
       ]
     },
-    "NETStandard.Library/2.0.0": {
-      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+    "NETStandard.Library/2.0.1": {
+      "sha512": "oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
       "type": "package",
-      "path": "netstandard.library/2.0.0",
+      "path": "netstandard.library/2.0.1",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -1684,7 +1683,7 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.0.nupkg.sha512",
+        "netstandard.library.2.0.1.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     },
@@ -1707,7 +1706,7 @@
       ]
     },
     "Remotion.Linq/2.1.1": {
-      "sha512": "++5N34DYPxTsDAKqqkx43LN3HicPdWgPQwHjPXmbzDE7bc5juRgaq13MAL5Gv+3Zz0AKzTrnxWCJHCPx6es4Ug==",
+      "sha512": "QeDIMzlXt4D6Rl8CAQImZ4aMQkMLbde+3FyHlovPT4gVQY7T+C1bqKx4kiwIHQEnIjWxnSOaPL8Ptmq5dIutOg==",
       "type": "package",
       "path": "remotion.linq/2.1.1",
       "files": [
@@ -1792,7 +1791,7 @@
       ]
     },
     "System.Collections/4.3.0": {
-      "sha512": "soRj7zZCU0vw5U6bSoT0vLEIYHWbtPI1PQHNFzV7M7XtmlKv12Pxj166sDiKuQnOJ7llv+Pe+G3uBsp0SRlHdw==",
+      "sha512": "3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
       "type": "package",
       "path": "system.collections/4.3.0",
       "files": [
@@ -2030,7 +2029,7 @@
       ]
     },
     "System.Diagnostics.Debug/4.3.0": {
-      "sha512": "5EQp3KiKouuQhHuZYdCNWWuB7Q0o4lEtGh9Ct2zkalJT/MA63DdFbcfj7ZSLhms3vNk6qdeGfq6uy6Xdl4D9SA==",
+      "sha512": "ZUhUOdqmaG5Jk3Xdb8xi5kIyQYAA4PnTNlHx1mu9ZY3qv4ELIdKbnL/akbGaKi2RnNUWaZsAs31rvzFdewTj2g==",
       "type": "package",
       "path": "system.diagnostics.debug/4.3.0",
       "files": [
@@ -2121,7 +2120,7 @@
       ]
     },
     "System.Globalization/4.3.0": {
-      "sha512": "rxwiu0rEYi5DOaTGBSLSdxDik3GG9IF2DS1rG1Jqgq/cbslt1eyj1lnthuFCnPDIiv4qJUQV3wX+tFm0vquiOg==",
+      "sha512": "kYdVd2f2PAdFGblzFswE4hkNANJBKRmsfa2X5LG2AcWE1c7/4t0pYae1L8vfZ5xvE2nK/R9JprtToA61OSHWIg==",
       "type": "package",
       "path": "system.globalization/4.3.0",
       "files": [
@@ -2204,7 +2203,7 @@
       ]
     },
     "System.IO/4.3.0": {
-      "sha512": "N8Uk/TKTkQOu4msxiXz0ziLODSSmpc+LPD51mV1mA8gN59WuhZCFps+F70VHlJLVca0UG5CWDmFrYr5s5Giy9w==",
+      "sha512": "3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
       "type": "package",
       "path": "system.io/4.3.0",
       "files": [
@@ -2283,7 +2282,7 @@
       ]
     },
     "System.Linq/4.3.0": {
-      "sha512": "KMzdADgZPNaqsgrCsj8FYta9YQoSC4MstMnuQNkDeoeUKVLA2P90iSEdh2IviIZhgfZ0Dv4BWXU7KFt/EaxI7A==",
+      "sha512": "5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
       "type": "package",
       "path": "system.linq/4.3.0",
       "files": [
@@ -2353,7 +2352,7 @@
       ]
     },
     "System.Linq.Expressions/4.1.0": {
-      "sha512": "F2vaIn1it1RIZX8Ey83aziVL4q56sVBGWwkb7pwkWCziQL3tPPga6X7IxYE9j4cyUNuSbXSQmrHlhdAOdfM9Rg==",
+      "sha512": "I+y02iqkgmCAyfbqOmSDOgqdZQ5tTj80Akm5BPSS8EeB0VGWdy6X1KCoYe8Pk6pwDoAKZUOdLVxnTJcExiv5zw==",
       "type": "package",
       "path": "system.linq.expressions/4.1.0",
       "files": [
@@ -2435,7 +2434,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "cBa97RouoGkkSkMmSq3kaK8e1xd/vqGfGcTSB+iv4ZINXqh3hrUzYeWF2q1Hxr5auPU+EqxNmzJSLb1xwQm34A==",
+      "sha512": "mgzWkQrKjkNqlTCwCGtRne+CbVjgUGfYrPFgR/S/OIxGITx/eoIlEbjKsKfUcC4jvn34YzbiqcCCvvrrqWqhQA==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -2492,7 +2491,7 @@
       ]
     },
     "System.ObjectModel/4.0.12": {
-      "sha512": "rDWu/1kP4XGqLmD0iUhxK8vb1dc67JVzFxK3INZ2/SbKmrQukrWQatrkrIcQlmSUqqKzJAh/KmpZ34c041VU2w==",
+      "sha512": "tAgJM1xt3ytyMoW4qn4wIqgJYm7L7TShRZG4+Q4Qsi2PCcj96pXN7nRywS9KkB3p/xDUjc2HSwP9SROyPYDYKQ==",
       "type": "package",
       "path": "system.objectmodel/4.0.12",
       "files": [
@@ -2560,7 +2559,7 @@
       ]
     },
     "System.Reflection/4.3.0": {
-      "sha512": "PmvKuNaAEw/1NQNqD3G6XurzAGqtXdRafGmv6ErkE5E9+bhE5p0GK50mPgnLRR2NvQG8uxkv4a0e1sbuovZUsA==",
+      "sha512": "KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
       "type": "package",
       "path": "system.reflection/4.3.0",
       "files": [
@@ -2639,7 +2638,7 @@
       ]
     },
     "System.Reflection.Emit/4.0.1": {
-      "sha512": "EhNXeuZkHLJvG8Yia657dEaLA6SxD6XgsMzoGHmfImTvbGW2+7BQnh0byN33BOJNp3WaIFN7oHOm233eLyOiUA==",
+      "sha512": "P2wqAj72fFjpP6wb9nSfDqNBMab+2ovzSDzUZK7MVIm54tBJEPr9jWfSjjoTpPwj1LeKcmX3vr0ttyjSSFM47g==",
       "type": "package",
       "path": "system.reflection.emit/4.0.1",
       "files": [
@@ -2669,7 +2668,7 @@
       ]
     },
     "System.Reflection.Emit.ILGeneration/4.0.1": {
-      "sha512": "18mwrtyihBU9BZATQYyJjTNZ44vcHrGDbupoN5AcWuAJ3R1jMLBQS2rgOnEbtWE38qJ+/DtmI7bZTkOM/O2V5g==",
+      "sha512": "Ov6dU8Bu15Bc7zuqttgHF12J5lwSWyTf1S+FJouUXVMSqImLZzYaQ+vRr1rQ0OZ0HqsrwWl4dsKHELckQkVpgA==",
       "type": "package",
       "path": "system.reflection.emit.ilgeneration/4.0.1",
       "files": [
@@ -2700,7 +2699,7 @@
       ]
     },
     "System.Reflection.Emit.Lightweight/4.0.1": {
-      "sha512": "EIC6KU9ym30Q4Dn79CbmgKraqrC75ma6Wyo+fkZQcE/7XTiD8oMHIC9tKuwpfa4yDeHjIKeg2aBsE/hfsRBt9w==",
+      "sha512": "sSzHHXueZ5Uh0OLpUQprhr+ZYJrLPA2Cmr4gn0wj9+FftNKXx8RIMKvO9qnjk2ebPYUjZ+F2ulGdPOsvj+MEjA==",
       "type": "package",
       "path": "system.reflection.emit.lightweight/4.0.1",
       "files": [
@@ -2731,7 +2730,7 @@
       ]
     },
     "System.Reflection.Extensions/4.0.1": {
-      "sha512": "j5QvgusAHyio/BaJjHhXoP7463FT81g1A7qZ5EzVir++yKTJFTZQHzRKk626epckjEnekWZOzyBdObf2X9a1FQ==",
+      "sha512": "GYrtRsZcMuHF3sbmRHfMYpvxZoIN2bQGrYGerUiWLEkqdEUQZhH3TRSaC/oI4wO0II1RKBPlpIa1TOMxIcOOzQ==",
       "type": "package",
       "path": "system.reflection.extensions/4.0.1",
       "files": [
@@ -2786,7 +2785,7 @@
       ]
     },
     "System.Reflection.Primitives/4.3.0": {
-      "sha512": "zTq+xDD3vbtI5DOHPMR8zxKkxSAVbbtMsGw79jKcWMSW4oSkpqKtPEQr35I4yUvVW9bkRxrV7Ia5TF9pMP4Qpg==",
+      "sha512": "5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
       "type": "package",
       "path": "system.reflection.primitives/4.3.0",
       "files": [
@@ -2841,7 +2840,7 @@
       ]
     },
     "System.Reflection.TypeExtensions/4.1.0": {
-      "sha512": "Jo+Gov3KHnbme+ACtGtE+6GE+Y/8j4rDaDTEfAywmGS8bO7PcZKTQsNBS8P8Tolz93bmSxweUJVqRhMPAZyEhw==",
+      "sha512": "tsQ/ptQ3H5FYfON8lL4MxRk/8kFyE0A+tGPXmVP967cT/gzLHYxIejIYSxp4JmIeFHVP78g/F2FE1mUUTbDtrg==",
       "type": "package",
       "path": "system.reflection.typeextensions/4.1.0",
       "files": [
@@ -2893,7 +2892,7 @@
       ]
     },
     "System.Resources.ResourceManager/4.3.0": {
-      "sha512": "yGuSzovK6qgOigPRZpcw/rmLH5E/v3dpEHaD3W/bRVkMckX3OQO2ZzN5sY+Wy7j+Ndg6Rcn8Dbvy7hNCl0zMZA==",
+      "sha512": "/zrcPkkWdZmI4F92gL/TPumP98AVDu/Wxr3CSJGQQ+XN6wbRZcyfSKVoPo17ilb3iOr0cCRqJInGwNMolqhS8A==",
       "type": "package",
       "path": "system.resources.resourcemanager/4.3.0",
       "files": [
@@ -2948,7 +2947,7 @@
       ]
     },
     "System.Runtime/4.3.0": {
-      "sha512": "qHZIHeF0LidPEpxUG+SCW7dDo7ziap0Pd2im3vasryNH4v8Sdk2NFpv+7yp6tazhWX2ugq+5sRnSMcbIHCrepA==",
+      "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
       "type": "package",
       "path": "system.runtime/4.3.0",
       "files": [
@@ -3059,7 +3058,7 @@
       ]
     },
     "System.Runtime.Extensions/4.3.0": {
-      "sha512": "PBZspu05TBNqyIFg0pdw+3tKPo9eIHk/SPL7os9nWmDmqBrJu57WLOP7JlehJ93sOlewKSxGuprbjDVGTTmU1A==",
+      "sha512": "guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
       "type": "package",
       "path": "system.runtime.extensions/4.3.0",
       "files": [
@@ -3214,7 +3213,7 @@
       ]
     },
     "System.Text.Encoding/4.3.0": {
-      "sha512": "IQ2dVh/8WZRjZV5qdCp7GOxmSfibSfE26Fj0G9doM1ktQHpeel5U7n7ypC2cefggC6mrp8hJQRKrdMuTx31p3Q==",
+      "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package",
       "path": "system.text.encoding/4.3.0",
       "files": [
@@ -3326,7 +3325,7 @@
       ]
     },
     "System.Threading/4.0.11": {
-      "sha512": "Iz96/afhW8N/Ml1HBwGjavzym2k7G+sRma2O5oKp2FEC3uLJW8AzREjMKkwhi9H/clhzKYL1aF69j8TSUGoJkQ==",
+      "sha512": "N+3xqIcg3VDKyjwwCGaZ9HawG9aC6cSDI+s7ROma310GQo8vilFZa86hqKppwTHleR/G0sfOzhvgnUxWCR/DrQ==",
       "type": "package",
       "path": "system.threading/4.0.11",
       "files": [
@@ -3395,7 +3394,7 @@
       ]
     },
     "System.Threading.Tasks/4.3.0": {
-      "sha512": "ZqrA4S3eC7+7b7DUtvZF1lm+VlcifLcEU0mcTLLl2wbMVv9A5CHKuHdg1TK5wsaBQVYGPQbWRDZ7/Tjq8dzYmg==",
+      "sha512": "LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "type": "package",
       "path": "system.threading.tasks/4.3.0",
       "files": [
@@ -3473,38 +3472,35 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.EntityFrameworkCore.Design >= 2.0.1",
+      "Microsoft.EntityFrameworkCore.Design >= 2.0.0",
       "Microsoft.EntityFrameworkCore.Relational >= 2.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.0.1",
-      "Microsoft.EntityFrameworkCore.Tools >= 1.1.0-msbuild3-final",
-      "Microsoft.NETCore.App >= 2.0.0",
+      "Microsoft.EntityFrameworkCore.Tools >= 2.0.0",
+      "Microsoft.NETCore.App >= 2.0.5",
       "School.Domain >= 1.0.0",
       "School.Domain.Models >= 1.0.0",
       "System.Linq >= 4.3.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dinesh.venkatachalam\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\Dinesh\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dinesh.venkatachalam\\Source\\repos\\netcore\\v2.0\\School\\School.Infrastructure\\School.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Dinesh\\Source\\core\\v2.0\\School\\School\\School\\School.Infrastructure\\School.Infrastructure.csproj",
       "projectName": "School.Infrastructure",
-      "projectPath": "C:\\Users\\dinesh.venkatachalam\\Source\\repos\\netcore\\v2.0\\School\\School.Infrastructure\\School.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\dinesh.venkatachalam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dinesh.venkatachalam\\Source\\repos\\netcore\\v2.0\\School\\School.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\Dinesh\\Source\\core\\v2.0\\School\\School\\School\\School.Infrastructure\\School.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Dinesh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dinesh\\Source\\core\\v2.0\\School\\School\\School\\School.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\dinesh.venkatachalam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\Dinesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -3516,11 +3512,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\dinesh.venkatachalam\\Source\\repos\\netcore\\v2.0\\School\\School.Domain.Models\\School.Domain.Models.csproj": {
-              "projectPath": "C:\\Users\\dinesh.venkatachalam\\Source\\repos\\netcore\\v2.0\\School\\School.Domain.Models\\School.Domain.Models.csproj"
+            "C:\\Users\\Dinesh\\Source\\core\\v2.0\\School\\School\\School\\School.Domain.Models\\School.Domain.Models.csproj": {
+              "projectPath": "C:\\Users\\Dinesh\\Source\\core\\v2.0\\School\\School\\School\\School.Domain.Models\\School.Domain.Models.csproj"
             },
-            "C:\\Users\\dinesh.venkatachalam\\Source\\repos\\netcore\\v2.0\\School\\School.Domain\\School.Domain.csproj": {
-              "projectPath": "C:\\Users\\dinesh.venkatachalam\\Source\\repos\\netcore\\v2.0\\School\\School.Domain\\School.Domain.csproj"
+            "C:\\Users\\Dinesh\\Source\\core\\v2.0\\School\\School\\School\\School.Domain\\School.Domain.csproj": {
+              "projectPath": "C:\\Users\\Dinesh\\Source\\core\\v2.0\\School\\School\\School\\School.Domain\\School.Domain.csproj"
             }
           }
         }
@@ -3535,8 +3531,9 @@
       "netcoreapp2.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.1, )"
+            "version": "[2.0.0, )"
           },
           "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
@@ -3548,12 +3545,12 @@
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
-            "version": "[1.1.0-msbuild3-final, )"
+            "version": "[2.0.0, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "[2.0.5, )",
             "autoReferenced": true
           },
           "System.Linq": {

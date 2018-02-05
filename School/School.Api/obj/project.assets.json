@@ -3106,6 +3106,18 @@
           "lib/netstandard1.5/StackExchange.Redis.StrongName.dll": {}
         }
       },
+      "System/4.1.311.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "(, )"
+        },
+        "compile": {
+          "lib/net451/SXN.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net451/SXN.Core.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4745,6 +4757,32 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
+        }
+      },
+      "School.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "School.Domain.Models": "1.0.0",
+          "System": "4.1.311.2",
+          "System.Collections": "4.3.0",
+          "System.Linq": "4.3.0"
+        },
+        "compile": {
+          "bin/placeholder/School.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/School.Domain.dll": {}
+        }
+      },
+      "School.Domain.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/School.Domain.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/School.Domain.Models.dll": {}
         }
       }
     }
@@ -7973,6 +8011,17 @@
         "lib/netstandard1.5/StackExchange.Redis.StrongName.xml",
         "stackexchange.redis.strongname.1.2.4.nupkg.sha512",
         "stackexchange.redis.strongname.nuspec"
+      ]
+    },
+    "System/4.1.311.2": {
+      "sha512": "P4cOoxreiNkBkP+Ir8W6GXxW2/5eneF9F1pAmTWHv3GEl1uLy65YDQAWfaLo4X5Tl+VFhl890dwD0exo+wzm8Q==",
+      "type": "package",
+      "path": "system/4.1.311.2",
+      "files": [
+        "lib/net451/SXN.Core.dll",
+        "lib/net451/SXN.Core.xml",
+        "system.4.1.311.2.nupkg.sha512",
+        "system.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -12526,12 +12575,23 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "School.Domain/1.0.0": {
+      "type": "project",
+      "path": "../School.Domain/School.Domain.csproj",
+      "msbuildProject": "../School.Domain/School.Domain.csproj"
+    },
+    "School.Domain.Models/1.0.0": {
+      "type": "project",
+      "path": "../School.Domain.Models/School.Domain.Models.csproj",
+      "msbuildProject": "../School.Domain.Models/School.Domain.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.5",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "School.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12541,11 +12601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dinesh\\SOurce\\core\\v2.0\\School\\School.Api\\School.Api.csproj",
+      "projectUniqueName": "c:\\Users\\Dinesh\\Source\\core\\v2.0\\School\\School\\School\\School.Api\\School.Api.csproj",
       "projectName": "School.Api",
-      "projectPath": "C:\\Users\\Dinesh\\SOurce\\core\\v2.0\\School\\School.Api\\School.Api.csproj",
+      "projectPath": "c:\\Users\\Dinesh\\Source\\core\\v2.0\\School\\School\\School\\School.Api\\School.Api.csproj",
       "packagesPath": "C:\\Users\\Dinesh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dinesh\\SOurce\\core\\v2.0\\School\\School.Api\\obj\\",
+      "outputPath": "c:\\Users\\Dinesh\\Source\\core\\v2.0\\School\\School\\School\\School.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12563,7 +12623,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\Dinesh\\Source\\core\\v2.0\\School\\School\\School\\School.Domain\\School.Domain.csproj": {
+              "projectPath": "c:\\Users\\Dinesh\\Source\\core\\v2.0\\School\\School\\School\\School.Domain\\School.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -12592,5 +12656,27 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "System 4.1.311.2 does not provide an inclusive lower bound for dependency Newtonsoft.Json. An approximate best match of Newtonsoft.Json 3.5.8 was resolved.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System 4.1.311.2' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
 }

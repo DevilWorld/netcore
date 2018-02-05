@@ -1,0 +1,14 @@
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Api\bin\Debug\netcoreapp2.0\School.Api.deps.json
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Api\bin\Debug\netcoreapp2.0\School.Api.runtimeconfig.json
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Api\bin\Debug\netcoreapp2.0\School.Api.runtimeconfig.dev.json
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Api\bin\Debug\netcoreapp2.0\School.Api.dll
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Api\bin\Debug\netcoreapp2.0\School.Api.pdb
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Api\obj\Debug\netcoreapp2.0\School.Api.csproj.CoreCompileInputs.cache
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Api\obj\Debug\netcoreapp2.0\School.Api.AssemblyInfoInputs.cache
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Api\obj\Debug\netcoreapp2.0\School.Api.AssemblyInfo.cs
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Api\obj\Debug\netcoreapp2.0\School.Api.dll
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Api\obj\Debug\netcoreapp2.0\School.Api.pdb
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Api\bin\Debug\netcoreapp2.0\School.Domain.dll
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Api\bin\Debug\netcoreapp2.0\School.Domain.Models.dll
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Api\bin\Debug\netcoreapp2.0\School.Domain.pdb
+C:\Users\Dinesh\Source\core\v2.0\School\School\School\School.Api\bin\Debug\netcoreapp2.0\School.Domain.Models.pdb

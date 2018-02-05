@@ -21,10 +21,10 @@ namespace School.Domain.Model
         public virtual Address Address { get; set; }
 
         //Navigation property
-        public virtual Parent Parent { get; set; }
+        // public virtual Parent Parent { get; set; }
 
-        public virtual ICollection<StudentClass> StudentClasses { get; set; }
+        // public virtual ICollection<StudentClass> StudentClasses { get; set; }
 
-        public virtual ICollection<HomeWork> HomeWork { get; set; }
+        // public virtual ICollection<HomeWork> HomeWork { get; set; }
     }
 }

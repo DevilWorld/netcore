@@ -10,6 +10,6 @@ namespace School.Domain.Interfaces.Repository
     public interface IUserRepository
     {
         bool IsUserExists(string userName);
-        User GetUser(User user);
+        // User GetUser(User user);
     }
 }

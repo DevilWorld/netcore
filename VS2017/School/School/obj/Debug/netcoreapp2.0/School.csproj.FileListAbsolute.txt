@@ -1,0 +1,15 @@
+C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\bin\Debug\netcoreapp2.0\School.deps.json
+C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\bin\Debug\netcoreapp2.0\School.runtimeconfig.json
+C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\bin\Debug\netcoreapp2.0\School.runtimeconfig.dev.json
+C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\bin\Debug\netcoreapp2.0\School.dll
+C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\bin\Debug\netcoreapp2.0\School.pdb
+C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\obj\Debug\netcoreapp2.0\School.csprojResolveAssemblyReference.cache
+C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\obj\Debug\netcoreapp2.0\School.csproj.CoreCompileInputs.cache
+C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\obj\Debug\netcoreapp2.0\School.AssemblyInfoInputs.cache
+C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\obj\Debug\netcoreapp2.0\School.AssemblyInfo.cs
+C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\obj\Debug\netcoreapp2.0\School.dll
+C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\obj\Debug\netcoreapp2.0\School.pdb
+C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\bin\Debug\netcoreapp2.0\School.Domain.dll
+C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\bin\Debug\netcoreapp2.0\School.Domain.Models.dll
+C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\bin\Debug\netcoreapp2.0\School.Domain.Models.pdb
+C:\Users\Dinesh\Documents\Visual Studio 2017\Projects\core\v2.0\School\School\School\bin\Debug\netcoreapp2.0\School.Domain.pdb

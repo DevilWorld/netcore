@@ -15,19 +15,22 @@ namespace SchoolPortal.Infrastructure.Repository
 
         public User GetUser(User user)
         {
-            using (_context = new SchoolDataContext())
-            {
-                return _context.Users
-                        .SingleOrDefault(x => x.UserId == user.UserId && x.Password == user.Password);
-            }
+        //     using (_context = new SchoolDataContext())
+        //     {
+        //         return _context.Users
+        //                 .SingleOrDefault(x => x.UserId == user.UserId && x.Password == user.Password);
+        //     }
+
+                return new User();
         }
 
         public bool IsUserExists(string userId)
         {
-            using (_context = new SchoolDataContext())
-            {
-                return _context.Users.Any(x => x.UserId.Equals(userId, StringComparison.CurrentCultureIgnoreCase));
-            }
+        //     using (_context = new SchoolDataContext())
+        //     {
+        //         return _context.Users.Any(x => x.UserId.Equals(userId, StringComparison.CurrentCultureIgnoreCase));
+        //     }
+            return true;
         }
     }
 }
