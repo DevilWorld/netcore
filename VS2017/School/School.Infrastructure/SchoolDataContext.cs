@@ -42,7 +42,7 @@ namespace School.Infrastructure
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=.;Initial Catalog=SchoolTest;Integrated Security=true;");
+            optionsBuilder.UseSqlServer(@"Data Source=Dinesh-PC\SQLEXPRESS;Initial Catalog=SchoolTest;Integrated Security=true;");
         }
     }
 }

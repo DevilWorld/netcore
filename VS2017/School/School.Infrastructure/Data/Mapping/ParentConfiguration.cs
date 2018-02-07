@@ -14,13 +14,13 @@ namespace School.Infrastructure.Data.Mapping
             typeBuilder.HasKey(p => p.ParentId);
 
             //Property-column mapping
-            typeBuilder.Property(p => p.ParentId).HasColumnName("ParentId");
-            typeBuilder.Property(p => p.AddressId).HasColumnName("AddressId");
-            typeBuilder.Property(p => p.FirstName).HasColumnName("FirstName");
-            typeBuilder.Property(p => p.MiddleName).HasColumnName("MiddleName");
-            typeBuilder.Property(p => p.LastName).HasColumnName("LastName");
-            typeBuilder.Property(p => p.Gender).HasColumnName("Gender");
-            typeBuilder.Property(p => p.DOB).HasColumnName("DOB");
+            typeBuilder.Property(p => p.ParentId).HasColumnName("ParentId").HasColumnType("int");
+            typeBuilder.Property(p => p.AddressId).HasColumnName("AddressId").HasColumnType("int");
+            typeBuilder.Property(p => p.FirstName).HasColumnName("FirstName").HasColumnType("varchar(30)").HasMaxLength(30);
+            typeBuilder.Property(p => p.MiddleName).HasColumnName("MiddleName").HasColumnType("varchar(30)").HasMaxLength(30);
+            typeBuilder.Property(p => p.LastName).HasColumnName("LastName").HasColumnType("varchar(30)").HasMaxLength(30);
+            typeBuilder.Property(p => p.Gender).HasColumnName("Gender").HasColumnType("char(2)").HasMaxLength(1);
+            typeBuilder.Property(p => p.DOB).HasColumnName("DOB").HasColumnType("datetime");
 
             //One-to-One relationship for parent with Address   
             typeBuilder.HasOne(x => x.Address)                                 //Address --> Principal Entity      Parent --> Dependent Entity

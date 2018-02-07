@@ -11,8 +11,8 @@ using System;
 namespace School.Infrastructure.Migrations
 {
     [DbContext(typeof(SchoolDataContext))]
-    [Migration("20180205220950_Initial")]
-    partial class Initial
+    [Migration("20180206003320_Changed Parent Table Design")]
+    partial class ChangedParentTableDesign
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -58,25 +58,36 @@ namespace School.Infrastructure.Migrations
                 {
                     b.Property<int>("ParentId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnName("ParentId");
+                        .HasColumnName("ParentId")
+                        .HasColumnType("int");
 
                     b.Property<int>("AddressId")
-                        .HasColumnName("AddressId");
+                        .HasColumnName("AddressId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("DOB")
-                        .HasColumnName("DOB");
+                        .HasColumnName("DOB")
+                        .HasColumnType("datetime");
 
                     b.Property<string>("FirstName")
-                        .HasColumnName("FirstName");
+                        .HasColumnName("FirstName")
+                        .HasColumnType("varchar(30)")
+                        .HasMaxLength(30);
 
                     b.Property<string>("Gender")
-                        .HasColumnName("Gender");
+                        .HasColumnName("Gender")
+                        .HasColumnType("char(2)")
+                        .HasMaxLength(1);
 
                     b.Property<string>("LastName")
-                        .HasColumnName("LastName");
+                        .HasColumnName("LastName")
+                        .HasColumnType("varchar(30)")
+                        .HasMaxLength(30);
 
                     b.Property<string>("MiddleName")
-                        .HasColumnName("MiddleName");
+                        .HasColumnName("MiddleName")
+                        .HasColumnType("varchar(30)")
+                        .HasMaxLength(30);
 
                     b.HasKey("ParentId");
 
