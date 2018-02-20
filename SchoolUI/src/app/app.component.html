@@ -4,10 +4,19 @@
     Welcome to {{ title }}!
   </h1>
   <nav>
-    <a routerLink='/addStudent'>Add Student</a>
-    <a routerLink='/getStudents'>Get Students</a>
+
+    <ngb-tabset>
+      <ngb-tab title="Add Student" >
+        <ng-template ngbTabContent>
+            <!-- <router-outlet></router-outlet> -->
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab title="Get Students">
+        <ng-template ngbTabContent>
+            <!-- <router-outlet></router-outlet> -->
+        </ng-template>
+      </ngb-tab>
+    </ngb-tabset>
   </nav>
-  <router-outlet></router-outlet>
+  
 </div>
-
-
