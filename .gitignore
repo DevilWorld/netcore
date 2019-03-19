@@ -4,6 +4,10 @@
 /dist
 /tmp
 /out-tsc
+.vs
+bin
+obj
+*.user
 
 # dependencies
 /node_modules
