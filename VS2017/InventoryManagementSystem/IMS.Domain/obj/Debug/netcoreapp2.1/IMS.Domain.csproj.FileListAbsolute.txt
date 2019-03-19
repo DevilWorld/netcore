@@ -1,9 +1,0 @@
-C:\Users\dinesh.venkatachalam\Documents\Personal\SourceCode\repos\TestProjects\netcore2.0\vs2017\InventoryManagementSystem\IMS.Domain\bin\Debug\netcoreapp2.1\IMS.Domain.deps.json
-C:\Users\dinesh.venkatachalam\Documents\Personal\SourceCode\repos\TestProjects\netcore2.0\vs2017\InventoryManagementSystem\IMS.Domain\bin\Debug\netcoreapp2.1\IMS.Domain.dll
-C:\Users\dinesh.venkatachalam\Documents\Personal\SourceCode\repos\TestProjects\netcore2.0\vs2017\InventoryManagementSystem\IMS.Domain\bin\Debug\netcoreapp2.1\IMS.Domain.pdb
-C:\Users\dinesh.venkatachalam\Documents\Personal\SourceCode\repos\TestProjects\netcore2.0\vs2017\InventoryManagementSystem\IMS.Domain\obj\Debug\netcoreapp2.1\IMS.Domain.csprojAssemblyReference.cache
-C:\Users\dinesh.venkatachalam\Documents\Personal\SourceCode\repos\TestProjects\netcore2.0\vs2017\InventoryManagementSystem\IMS.Domain\obj\Debug\netcoreapp2.1\IMS.Domain.csproj.CoreCompileInputs.cache
-C:\Users\dinesh.venkatachalam\Documents\Personal\SourceCode\repos\TestProjects\netcore2.0\vs2017\InventoryManagementSystem\IMS.Domain\obj\Debug\netcoreapp2.1\IMS.Domain.AssemblyInfoInputs.cache
-C:\Users\dinesh.venkatachalam\Documents\Personal\SourceCode\repos\TestProjects\netcore2.0\vs2017\InventoryManagementSystem\IMS.Domain\obj\Debug\netcoreapp2.1\IMS.Domain.AssemblyInfo.cs
-C:\Users\dinesh.venkatachalam\Documents\Personal\SourceCode\repos\TestProjects\netcore2.0\vs2017\InventoryManagementSystem\IMS.Domain\obj\Debug\netcoreapp2.1\IMS.Domain.dll
-C:\Users\dinesh.venkatachalam\Documents\Personal\SourceCode\repos\TestProjects\netcore2.0\vs2017\InventoryManagementSystem\IMS.Domain\obj\Debug\netcoreapp2.1\IMS.Domain.pdb
