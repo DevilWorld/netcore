@@ -9,6 +9,7 @@ using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.Extensions.Configuration;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace InventoryManagementSystem.Controllers
 {
@@ -23,6 +24,8 @@ namespace InventoryManagementSystem.Controllers
             _configuration = Configuration;
         }
 
+        [HttpGet]
+        [Route("request-token")]
         public IActionResult RequestToken(TokenRequest request)
         {
             if (request.UserName == "Dinesh.Venkatachalam" && request.Password == "test123")
@@ -34,6 +37,28 @@ namespace InventoryManagementSystem.Controllers
 
                 var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["securityKey"]));
                 var signedCredential = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+                var token = new JwtSecurityToken(
+                    issuer: "localhost:3488",
+                    audience: "localhost:3488",
+                    claims: claims,
+                    expires: DateTime.Now.AddMinutes(30),
+                    signingCredentials: signedCredential
+                    );
+
+                try
+                {
+                    var serializedToken = new
+                    {
+                        token = new JwtSecurityTokenHandler().WriteToken(token)
+                    };
+
+                    return Ok(serializedToken);
+                }
+                catch(Exception ex)
+                {
+                    return BadRequest(ex);
+                }                
             }
 
             return BadRequest("Could not verify username and password");
