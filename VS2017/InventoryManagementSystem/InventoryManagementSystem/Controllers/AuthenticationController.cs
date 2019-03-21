@@ -26,7 +26,7 @@ namespace InventoryManagementSystem.Controllers
 
         [HttpGet]
         [Route("request-token")]
-        public IActionResult RequestToken(TokenRequest request)
+        public IActionResult RequestToken([FromBody]TokenRequest request)
         {
             if (request.UserName == "Dinesh.Venkatachalam" && request.Password == "test123")
             {

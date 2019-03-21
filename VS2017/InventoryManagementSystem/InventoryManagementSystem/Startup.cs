@@ -9,6 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace InventoryManagementSystem
 {
@@ -24,7 +26,20 @@ namespace InventoryManagementSystem
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddAuthentication(JwtBearerDefaults)
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = "localhost:3488",
+                        ValidAudience = "localhost:3488",
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["securityKey"]))
+                    };
+                });
             services.AddMvc();
             services.AddSingleton(Configuration);
         }
@@ -37,6 +52,7 @@ namespace InventoryManagementSystem
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseAuthentication();
             app.UseMvc();
         }
     }
